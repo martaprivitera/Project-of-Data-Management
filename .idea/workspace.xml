@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="615844f6-e67c-44cd-937b-4d6e1ab709ba" name="Changes" comment="Bug Fix">
+      <change afterPath="$PROJECT_DIR$/ChromeDriver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Acquisition/Final_Data/FinalDataset2014.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data Acquisition/Final_Data/FinalDataset2014.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Acquisition/Final_Data/FinalDataset2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data Acquisition/Final_Data/FinalDataset2022.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Acquisition/Merged_Data/Qualifying_Season_Merged_2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data Acquisition/Merged_Data/Qualifying_Season_Merged_2022.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2013.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2013.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2014.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2014.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2022.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2022.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RawDataCollected/WebScraping/Weather_Qualifying/2014/Weather_Qualifying.json" beforeDir="false" afterPath="$PROJECT_DIR$/RawDataCollected/WebScraping/Weather_Qualifying/2014/Weather_Qualifying.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storage/Connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Storage/Connection.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MVmYzk6OduACPpp1UdDJMzRlEv" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/matte/PycharmProjects/DataManagement/Data Acquisition/Merge&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\matte\PycharmProjects\DataManagement\Data Acquisition\Merge" />
+      <recent name="C:\Users\matte\PycharmProjects\DataManagement\RawDataCollected\WebScraping\Qualifying_Max_Speed" />
+      <recent name="C:\Users\matte\PycharmProjects\DataManagement\Data Acquisition" />
+      <recent name="C:\Users\matte\PycharmProjects\DataManagement\Data Acquisition\Qualifying_Max_Speed" />
+      <recent name="C:\Users\matte\PycharmProjects\DataManagement\RawDataCollected\WebScraping\Weather_Race" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matte\PycharmProjects\DataManagement\ChromeDriver" />
+      <recent name="C:\Users\matte\PycharmProjects\DataManagement\Data Acquisition" />
+      <recent name="C:\Users\matte\PycharmProjects\DataManagement\Data Acquisition\Qualifying_Max_Speed" />
+      <recent name="C:\Users\matte\PycharmProjects\DataManagement\Data Acquisition\Merge" />
+      <recent name="C:\Users\matte\PycharmProjects\DataManagement\RawDataCollected\WebScraping\Seasons" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataManagement" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Acquisition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data Acquisition/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DataManagement" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="615844f6-e67c-44cd-937b-4d6e1ab709ba" name="Changes" comment="" />
+      <created>1677861175465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677861175465</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Prova">
+      <created>1677862380598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677862380598</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ho aggiunto un file json di esmepio">
+      <created>1677862911972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677862911972</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Inseriti Dati Meteo e sui Satelliti Starlink di SpaceX">
+      <created>1677866824359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677866824359</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Rimossi File Inutili">
+      <created>1677866966019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677866966019</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Creata Connessione con Database Atlas">
+      <created>1677923670738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677923670738</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Aggiunto codice WEBScraping e Raw Data in formato JSON">
+      <created>1678746909659</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678746909659</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Sistemato WebScraping e raccolto i dati corettamente">
+      <created>1679524256921</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679524256921</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Sistemato WebScraping e raccolto i dati corettamente">
+      <option name="closed" value="true" />
+      <created>1688482483827</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688482483827</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Sistemato WebScraping e raccolto i dati corettamente">
+      <option name="closed" value="true" />
+      <created>1688482571738</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688482571738</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Sistemato WebScraping e raccolto i dati corettamente">
+      <option name="closed" value="true" />
+      <created>1688489227998</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688489227998</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Spostati e ordinati file in data Acquisition, commenti in inglese, aggiunto README.md e requirements.txt file. Main.py per un unica esecuzione">
+      <option name="closed" value="true" />
+      <created>1689778512126</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778512126</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Spostati e ordinati file in data Acquisition, commenti in inglese, aggiunto README.md e requirements.txt file. Main.py per un unica esecuzione">
+      <option name="closed" value="true" />
+      <created>1689778519471</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778519471</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Minor Fix">
+      <option name="closed" value="true" />
+      <created>1689779046155</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689779046155</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Minor Fix">
+      <option name="closed" value="true" />
+      <created>1690290400207</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690290400207</updated>
+    </task>
+    <task id="LOCAL-00015" summary="README.md updated">
+      <option name="closed" value="true" />
+      <created>1690290922036</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690290922036</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Bug Fix">
+      <option name="closed" value="true" />
+      <created>1690720392102</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690720392102</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Bug Fix">
+      <option name="closed" value="true" />
+      <created>1690914523891</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690914523891</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Prova" />
+    <MESSAGE value="Ho aggiunto un file json di esmepio" />
+    <MESSAGE value="Inseriti Dati Meteo e sui Satelliti Starlink di SpaceX" />
+    <MESSAGE value="Rimossi File Inutili" />
+    <MESSAGE value="Creata Connessione con Database Atlas" />
+    <MESSAGE value="Aggiunto codice WEBScraping e Raw Data in formato JSON" />
+    <MESSAGE value="Sistemato WebScraping e raccolto i dati corettamente" />
+    <MESSAGE value="Spostati e ordinati file in data Acquisition, commenti in inglese, aggiunto README.md e requirements.txt file. Main.py per un unica esecuzione" />
+    <MESSAGE value="Minor Fix" />
+    <MESSAGE value="README.md updated" />
+    <MESSAGE value="Bug Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug Fix" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py</url>
+          <line>343</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py</url>
+          <line>344</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py</url>
+          <line>261</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py</url>
+          <line>264</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py</url>
+          <line>266</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py</url>
+          <line>265</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py</url>
+          <line>270</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py</url>
+          <line>291</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py</url>
+          <line>292</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2021.py</url>
+          <line>293</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2022.py</url>
+          <line>326</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2022.py</url>
+          <line>333</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Acquisition/Seasons/WS_Season2022.py</url>
+          <line>334</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="circuit_url" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
