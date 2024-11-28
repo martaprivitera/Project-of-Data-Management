@@ -1,5 +1,3 @@
-# Progetto Data Management
-
 ## Installation
 To install the required dependencies, use the following command:
 
