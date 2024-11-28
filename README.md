@@ -1,22 +1,48 @@
 # Project of Data Management
 
-In our analysis of Formula 1 data from the years 2013, 2014, 2021, and 2022, we have gathered a comprehensive dataset for comparative insights.
+This repository contains different sub-folders in which we can find all the codes and JSON files created. A brief
+explanation of the contents:
 
-## Data Acquisition
+1. The WebScraping codes can be found in the “Data Acquisition” folder, in particular we have to make
+reference to 3 sub-folders:
 
-For each of the specified years, we meticulously collected the following data: Drivers and Teams, Grand Prix, Laps & Qualifications. We gathered detailed information on the Formula 1 qualifying sessions. We collected Maximum Speeds During Qualifying Sessions and Circuit with Turns & Length. 
-Finally we meticulously documented the weather conditions during qualifying sessions and races because weather can significantly impact race outcomes and strategy.
-During the data collection phase, we primarily obtained data through web scraping (BeautifulSoup and Selenium in Python), with the exception of the PDF files containing maximum speeds, which were downloaded and converted to JSON format (in Python).
+- “Seasons”, which contains the four python codes about each year;
 
-## Data Quality
+- “Qualifying Max Speed, which contains four folders with the pdf we downloaded for eache year
+and then the python codes of conversion from pdf to JSON for each year;
 
-To verify the completeness of the acquired dataset we conducted an in-depth analysis of missing data.
+- “Weather”, which contains two folders, one for the Qualifying session and the other for the Race
+where we can find the python code for each year.
 
-We assessed data consistency by examining the update status of websites, their official sources (as in the case of the fia.com for speed data), and cross-referencing multiple sources (as in the case of weather conditions gathered from both Italian and English Wikipedia pages). 
+2. The output of these WebScraping can be found in the “RawDataCollected” folder which contains the
+“WebScraping” folder in which the JSON output relative to Season, Max Speed and Weather Conditions
+are collected (divided by sub-folders).
 
-Data accuracy was evaluated using analytical tool, the percentage of inaccuracies, and through semantic considerations. Additionally, we conducted semantic considerations, which included evaluating the reliability of data sources. In the case of weather conditions, our assessment was based on words or sentences found within the texts from which we extracted the data, and this evaluation was conducted across multiple languages to ensure consistency and accuracy.
+3. In the “Data Acquisition” folder we can also find the codes relative to the merge between Season JSON,
+Maximum Speed JSON and Weather Conditions JSON. In particular they are contained in the “Merge”
+folder. The outputs of the merge process are contained in the “Merged Data” folder in which there
+are the integration between Season JSONs and Maximum Speed JSONs. The JSONs with the last
+integration plus Weather Condition are stored in the “Final Data” folder;
 
-## Data Storage
+4. The “Data quality” folder contains several codes and JSON files:
 
-Subsequently, we integrated all the collected data from the specified years (2013, 2014, 2021, and 2022) into a consolidated dataset. 
-This dataset is stored into JSON files named "Final_Datasetyear.json" on MongoDB. Once the dataset was completed, we performed three queries on the data.
+- The ones to check data quality on season JSON (rawdata seasons.py which has as output the
+laps2013.JSON, laps2014.JSON, laps2021.JSON and laps2022.JSON ), Max Speed JSON (raw-
+data speed.py) and Weather Condition JSON (rawdata weather.py);
+
+- The four python codes for doing WebScraping (e.g laps2013fia.py) on the FIA website with re-
+spective outputs (e.g laps2013fia.JSON ) and the code that checks correspondences between FIA
+website and our JSON files (lapscheckfia.py);
+
+- The two python codes about the data quality check on merged data (merge speed.py and merge weather.py);
+
+- The python code for data quality on stored data (finaldata.py)
+
+5. Finally, the “Data Storage” folder contains:
+ 
+- The python codes that make connection and insertion of the final JSON files to MongoDB;
+
+- The 3 query codes we used for our analysis and another code to plot useful graphs we used and
+inserted in the Report (DataM anagementReport.pdf).
+
+### This project was created in collaboration with Eleonora Brambatti and Matteo Pasotti, fellow students at the University of Milano-Bicocca.
