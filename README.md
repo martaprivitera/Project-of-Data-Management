@@ -44,3 +44,5 @@ website and our JSON files (lapscheckfia.py);
 
 - The 3 query codes we used for our analysis and another code to plot useful graphs we used and
 inserted in the Report (DataM anagementReport.pdf).
+
+### This project was created in collaboration with Eleonora Brambatti and Matteo Pasotti, fellow students at the University of Milano-Bicocca.
