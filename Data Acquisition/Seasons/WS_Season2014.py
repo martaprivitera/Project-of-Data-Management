@@ -279,7 +279,7 @@ for _url in circuit_url:
                     curve = turns_match.group(1)
 
                     # Adjust the circuit names to insert them into the dictionary.
-                    turns = _url.replace("_", " ")
+                    turns = url.replace("", " ")
                     stats_circuit.append({"Circuit": turns, "Length": length, "Turns": curve})
         else:
             if year_of_search == date_match:
@@ -299,7 +299,7 @@ for _url in circuit_url:
                     curve = turns_match.group(1)
 
                     # Adjust the circuit names to insert them into the dictionary.
-                    turns = _url.replace("_", " ")
+                    turns = url.replace("", " ")
                     stats_circuit.append({"Circuit": turns, "Length": length, "Turns": curve})
 
     # Wait for a short period of time before making the next request.

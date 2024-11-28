@@ -25339,7 +25339,7 @@
                 "61": "1:22.016",
                 "62": "1:22.304",
                 "Weather Condition": "rain"
-            },
+            }, 
             "Circuit": {
                 "Name": "Imola Circuit",
                 "Length": "4.909",
@@ -26553,11 +26553,10 @@
                 "Q3 Time": [],
                 "Q2 Time": [
                     "1:12.210"
-                ],
+            ],
                 "Q1 Time": [
                     "1:14.398"
-                ],
-                "Weather Condition": "rain"
+                ]
             },
             "Laps": {
                 "1": "1:45.389",
